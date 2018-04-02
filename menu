@@ -1,0 +1,104 @@
+echo "##############################"
+echo " MENU DE OPÇOES"
+echo "##############################"
+echo " [1] SSH Criar Novo Usuário"
+echo " [2] SSH Apagar Usuário"
+echo " [3] SSH Alterar Senha De Usuario"
+echo " [4] SSHKILL Limitar Login Simultaneo"
+echo " [5] SSHKILL Ver Limitador Trabalhando"
+echo " [6] MUDAR DATA de vencimento login"
+echo " [7] NLOAD Banda Total"
+echo " [8] HTOP Gerenciador de Tarefas"
+echo " [9] SSH Ver Usuários Conectados"
+echo " [10] MEMORIA Liberar Memoria Ram"
+echo " [11] SQUID Acessar SQUID"
+echo " [12] SQUID Ver Log SQUID"
+echo " [13] SSH Acessar SSH"
+echo " [14] SPEED Testar Velocidade Server"
+echo " [15] SSH Listar users Online "
+echo " [16] Contagem de Users Online "
+echo " [17] Nethogs, consumo users "
+echo " [18] ajuda "
+
+read deseja
+if [ "$deseja" = "1" ]
+then
+criarusuario
+fi
+if [ "$deseja" = "2" ]
+then
+remover
+fi
+if [ "$deseja" = "3" ]
+then
+alterarsenha
+fi
+if [ "$deseja" = "4" ]
+then
+alterarlimite
+fi
+if [ "$deseja" = "5" ]
+then
+sshlimiter
+fi
+if [ "$deseja" = "6" ]
+then
+mudardata
+fi
+if [ "$deseja" = "7" ]
+then
+nload
+fi
+if [ "$deseja" = "8" ]
+then
+htop
+fi
+if [ "$deseja" = "9" ]
+then
+echo  " Qual nome do usuario ?"
+read nome
+clear
+echo "Usuário: "
+echo
+ps x | grep $nome | wc -l
+echo
+echo
+fi
+if [ "$deseja" = "10" ]
+then
+sync; echo 1 > /proc/sys/vm/drop_caches
+sync; echo 2 > /proc/sys/vm/drop_caches
+sync; echo 3 > /proc/sys/vm/drop_caches
+fi
+if [ "$deseja" = "11" ]
+then
+nano /etc/squid3/squid.conf
+fi
+if [ "$deseja" = "12" ]
+then
+tail -f /var/log/squid3/access.log
+fi
+if [ "$deseja" = "13" ]
+then
+nano /etc/ssh/sshd_config
+fi
+if [ "$deseja" = "14" ]
+then
+speedtest-cli --share
+fi
+if [ "$deseja" = "15" ]
+then
+ps x | grep sshd
+fi
+if [ "$deseja" = "16" ]
+then
+ps x | grep sshd | grep priv | wc -l
+fi
+if [ "$deseja" = "17" ]
+then
+nethogs
+fi
+if [ "$deseja" = "18" ]
+then
+ajuda
+fi
