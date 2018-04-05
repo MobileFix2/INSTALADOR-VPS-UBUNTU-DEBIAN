@@ -6,3 +6,5 @@ wget https://raw.githubusercontent.com/extremetips/net-free/master/vps && bash v
 apos instalação digite " menu "
 
 compativel com UBUNTU e DEBIAN
+
+05/04/18 adicionado menu de acesso rapido a funçoes basicas.
