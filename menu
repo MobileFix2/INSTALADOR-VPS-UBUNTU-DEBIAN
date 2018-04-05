@@ -6,8 +6,8 @@ echo " [2] SSH Apagar Usuário"
 echo " [3] SSH Alterar Senha De Usuario"
 echo " [4] SSHKILL Limitar Login Simultaneo"
 echo " [5] SSHKILL Ver Limitador Trabalhando"
-echo " [6] MUDAR DATA de vencimento login"
-echo " [7] NLOAD Banda Total"
+echo " [6] MUDAR DATA"
+echo " [7] SSH Monitor"
 echo " [8] HTOP Gerenciador de Tarefas"
 echo " [9] SSH Ver Usuários Conectados"
 echo " [10] MEMORIA Liberar Memoria Ram"
@@ -17,8 +17,16 @@ echo " [13] SSH Acessar SSH"
 echo " [14] SPEED Testar Velocidade Server"
 echo " [15] SSH Listar users Online "
 echo " [16] Contagem de Users Online "
-echo " [17] Nethogs, consumo users "
-echo " [18] ajuda "
+echo " [17] Menu OPENVPN "
+echo " [18] LOG OPENVPN CONECTADOS "
+echo "##############################"
+echo " Iniciar/Reiniciar SERVIÇOS"
+echo "##############################"
+echo " [19] INICIAR BADUDP "
+echo " [20] INICIAR SSHKILL "
+echo " [21] NLOAD Banda Total"
+echo " [22] NETHOGS Banda Por Usuario"
+echo " BY EXTREME TIPS MOD"
 
 read deseja
 if [ "$deseja" = "1" ]
@@ -47,7 +55,7 @@ mudardata
 fi
 if [ "$deseja" = "7" ]
 then
-nload
+sshmonitor
 fi
 if [ "$deseja" = "8" ]
 then
@@ -96,9 +104,25 @@ ps x | grep sshd | grep priv | wc -l
 fi
 if [ "$deseja" = "17" ]
 then
-nethogs
+bash openvpn
 fi
 if [ "$deseja" = "18" ]
 then
-ajuda
+netstat -nap |grep -w 8090
+fi
+if [ "$deseja" = "19" ]
+then
+screen -dmS abc badudp
+fi
+if [ "$deseja" = "20" ]
+then
+sshlimiter
+fi
+if [ "$deseja" = "21" ]
+then
+nload
+fi
+if [ "$deseja" = "22" ]
+then
+nethogs
 fi
