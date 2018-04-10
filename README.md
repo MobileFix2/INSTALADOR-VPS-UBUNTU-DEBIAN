@@ -1,3 +1,11 @@
+esse é um conjunto de scripts que congigura uma vps para tunelamento ssh ,alguns criados por min e alguns copiados de outros scripts ja existentes.
+
+nesse pacote de scripts será instalado a squid e tambem configurado o ssh ja com hosts e permissoes de acesso via aplicativos de vpn!
+
+eu modifiquei para uso proprio em meu dia a dia porem quem quiser pode usar os scripts gratuitamente em suas vps!
+
+tudo foi testado em UBUNTU e DEBIAN, outros sistemas nao garanto compatibilidade.
+
 # instalaçao
 no terminal copie ou digite comandos abaixo!
 
