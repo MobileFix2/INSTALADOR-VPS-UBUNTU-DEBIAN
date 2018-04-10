@@ -17,16 +17,12 @@ echo " [13] SSH Acessar SSH"
 echo " [14] SPEED Testar Velocidade Server"
 echo " [15] SSH Listar users Online "
 echo " [16] Contagem de Users Online "
-echo " [17] Menu OPENVPN "
-echo " [18] LOG OPENVPN CONECTADOS "
-echo "##############################"
-echo " Iniciar/Reiniciar SERVIÇOS"
-echo "##############################"
-echo " [19] INICIAR BADUDP "
-echo " [20] INICIAR SSHKILL "
-echo " [21] NLOAD Banda Total"
-echo " [22] NETHOGS Banda Por Usuario"
-echo " BY EXTREME TIPS MOD"
+echo " [17] NETHOGS users e consumo "
+echo " [18] NLOAD Banda Total "
+echo " [19] VNSTAT consumo "
+echo " BY EXTREME TIPS "
+echo " TELEGRAM= @ExtremeTips"
+echo " WHATTS= 41992479554"
 
 read deseja
 if [ "$deseja" = "1" ]
@@ -104,25 +100,13 @@ ps x | grep sshd | grep priv | wc -l
 fi
 if [ "$deseja" = "17" ]
 then
-bash openvpn
+nethogs
 fi
 if [ "$deseja" = "18" ]
 then
-netstat -nap |grep -w 8090
+nload
 fi
 if [ "$deseja" = "19" ]
 then
-screen -dmS abc badudp
-fi
-if [ "$deseja" = "20" ]
-then
-sshlimiter
-fi
-if [ "$deseja" = "21" ]
-then
-nload
-fi
-if [ "$deseja" = "22" ]
-then
-nethogs
+vnstat
 fi
