@@ -20,3 +20,6 @@ compativel com UBUNTU e DEBIAN
 05/04/18 adicionado menu de acesso rapido a funçoes basicas.
 
 10/04/18 adicionado vnstat,nethogs,nload,htop, speedtest
+
+<a href="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/Capturar.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="250" data-original-width="511" height="156" src="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/Capturar.PNG" width="320" /></a></div>
+<br /></div>
