@@ -6,7 +6,7 @@ eu modifiquei para uso proprio em meu dia a dia porem quem quiser pode usar os s
 
 tudo foi testado em UBUNTU e DEBIAN, outros sistemas nao garanto compatibilidade.
 
-<a href="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/Capturar.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="500" data-original-width="511" src="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/Capturar.PNG" /></a></div>
+<a href="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/menu%20print.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="500" data-original-width="511" src="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/menu%20print.PNG" /></a></div>
 <br /></div>
 
 # instalaçao
