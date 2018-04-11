@@ -24,3 +24,7 @@ compativel com UBUNTU e DEBIAN
 
 10/04/18 adicionado vnstat,nethogs,nload,htop, speedtest
 
+11/04/18 adicionado OPENVPN multi-login! permite multiplas conexoes usando apenas 1 certificado
+
+11/04/18 OBS: na opção 20 do menu referente ao openvpn, é bom salientar que na primeira vez que voce acessar ele ,será feito a instalação do openvpn primeiro antes de acessar o menu de crição de certificados de usuarios! nas proximas vezes que voce acessar a opção 20 ai ja irá pular direto para o menu openvpn
+
