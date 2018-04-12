@@ -12,7 +12,8 @@ tudo foi testado em UBUNTU e DEBIAN, outros sistemas nao garanto compatibilidade
 # instalaçao
 no terminal copie ou digite comandos abaixo!
 
-wget https://raw.githubusercontent.com/extremetips/net-free/master/vps && bash vps
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<span style="background-color: black;"><span style="color: #eeeeee;">wget https://raw.githubusercontent.com/extremetips/net-free/master/vps &amp;&amp; bash vps</span></span></div>
 
 apos instalação digite " menu "
 
