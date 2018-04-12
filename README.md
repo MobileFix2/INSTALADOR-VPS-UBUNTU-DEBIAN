@@ -13,7 +13,7 @@ tudo foi testado em UBUNTU e DEBIAN, outros sistemas nao garanto compatibilidade
 no terminal copie ou digite comandos abaixo!
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
-<span style="background-color: black;"><span style="color: #eeeeee;">wget https://raw.githubusercontent.com/extremetips/net-free/master/vps &amp;&amp; bash vps</span></span></div>
+<span style="background-color: #bf9000;"><span style="color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: 16px;">wget&nbsp;</span><a href="https://raw.githubusercontent.com/extremetips/net-free/master/vps" style="box-sizing: border-box; color: #0366d6; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: 16px; text-decoration-line: none;">https://raw.githubusercontent.com/extremetips/net-free/master/vps</a><span style="color: #24292e; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: 16px;">&nbsp;&amp;&amp; bash vps</span></span></div>
 
 apos instalação digite " menu "
 
