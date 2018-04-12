@@ -6,7 +6,7 @@ eu modifiquei para uso proprio em meu dia a dia porem quem quiser pode usar os s
 
 tudo foi testado em UBUNTU e DEBIAN, outros sistemas nao garanto compatibilidade.
 
-<a href="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/menu%20print.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="500" data-original-width="511" src="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/menu%20print.PNG" /></a></div>
+<a href="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/Capturar.PNG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="500" data-original-width="511" src="https://github.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/blob/master/Capturar.PNG" /></a></div>
 <br /></div>
 
 # instalaçao
@@ -27,4 +27,6 @@ compativel com UBUNTU e DEBIAN
 11/04/18 adicionado OPENVPN multi-login! permite multiplas conexoes usando apenas 1 certificado
 
 11/04/18 OBS: na opção 20 do menu referente ao openvpn, é bom salientar que na primeira vez que voce acessar ele ,será feito a instalação do openvpn primeiro antes de acessar o menu de crição de certificados de usuarios! nas proximas vezes que voce acessar a opção 20 ai ja irá pular direto para o menu openvpn
+
+12/04/18 adicionado ferramenta backup de usuarios e senha do servidor! ferramenta tambem faz backup da base de dados do limitador de conexoes simultaneas " sshkill". opçao 21 do menu!
 
