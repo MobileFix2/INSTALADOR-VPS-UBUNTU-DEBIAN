@@ -110,6 +110,7 @@ fi
 if [ "$deseja" = "19" ]
 then
 vnstat
+fi
 if [ "$deseja" = "20" ]
 then
 bash openvpn.sh
