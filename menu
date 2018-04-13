@@ -21,7 +21,8 @@ echo " [17] NETHOGS users e consumo "
 echo " [18] NLOAD Banda Total "
 echo " [19] VNSTAT consumo "
 echo " [20] Openvpn Menu "
-echo " [21] Badvpn/Badudp"
+echo " [21] Backup usuarios/senhas"
+echo " [22] Badvpn/Badudp"
 echo " BY EXTREME TIPS "
 echo " TELEGRAM= @ExtremeTips"
 echo " WHATTS= 41992479554"
@@ -117,6 +118,10 @@ then
 bash openvpn.sh
 fi
 if [ "$deseja" = "21" ]
+then
+bash userbackup.sh
+fi
+if [ "$deseja" = "22" ]
 then
 ./badvpnsetup.sh
 fi
