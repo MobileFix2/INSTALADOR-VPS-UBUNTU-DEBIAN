@@ -40,8 +40,6 @@ read -p "Deseja ativar a compressão SSH (pode aumentar o consumo de RAM)? [s/n]
 echo ""
 tput setaf 7 ; tput setab 4 ; tput bold ; echo "" ; echo "Aguarde a configuração automática" ; echo "" ; tput sgr0
 sleep 3
-apt-get update -y
-apt-get upgrade -y
 rm /bin/criarusuario /bin/expcleaner /bin/sshlimiter /bin/addhost /bin/listar /bin/sshmonitor /bin/ajuda > /dev/null
 rm /root/ExpCleaner.sh /root/CriarUsuario.sh /root/sshlimiter.sh > /dev/null
 apt-get install squid3 bc screen nano unzip dos2unix wget -y
@@ -84,6 +82,8 @@ then
 	chmod +x /bin/ajuda
 	wget https://raw.githubusercontent.com/salesiano38/mauricionet/master/sshmonitor2.sh -O /bin/sshmonitor
 	chmod +x /bin/sshmonitor
+	wget https://raw.githubusercontent.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/master/badvpnsetup.sh
+	chmod +x badvpnsetup.sh
 	wget https://raw.githubusercontent.com/extremetips/net-free/master/menu -O /bin/menu
 	chmod +x /bin/menu
 	if [ ! -f "/etc/init.d/squid3" ]
