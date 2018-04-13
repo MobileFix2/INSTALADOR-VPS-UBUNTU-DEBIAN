@@ -84,6 +84,8 @@ then
 	chmod +x /bin/sshmonitor
 	wget https://raw.githubusercontent.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/master/badvpnsetup.sh
 	chmod +x badvpnsetup.sh
+	wget https://raw.githubusercontent.com/extremetips/INSTALADOR-VPS-UBUNTU-DEBIAN/master/userbackup.sh
+	chmod +x userbackup.sh
 	wget https://raw.githubusercontent.com/extremetips/net-free/master/menu -O /bin/menu
 	chmod +x /bin/menu
 	if [ ! -f "/etc/init.d/squid3" ]
