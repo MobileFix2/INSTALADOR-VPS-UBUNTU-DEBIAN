@@ -30,5 +30,5 @@ compativel com UBUNTU e DEBIAN
 
 12/04/18 adicionado ferramenta backup de usuarios e senha do servidor! ferramenta tambem faz backup da base de dados do limitador de conexoes simultaneas " sshkill". opçao 21 do menu!
 
-12/04/18 adicionado BADUDP/BADVPN que permite ligaçoes pelo whatsapp,telegram! tambem permite video chamadas e jogos online
+12/04/18 adicionado BADUDP/BADVPN que permite ligaçoes pelo whatsapp,telegram! tambem permite video chamadas e jogos online! no primeiro acesso será feito a instalação que pode demorar varios minutos! nos acessos posteriores quando escolhida a opçao 22 do menu ja irá direto para o menu do Badudp!
 
