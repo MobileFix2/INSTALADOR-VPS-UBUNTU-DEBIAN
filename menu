@@ -25,7 +25,6 @@ echo " [21] Backup usuarios/senhas"
 echo " [22] Badvpn/Badudp"
 echo " BY EXTREME TIPS "
 echo " TELEGRAM= @ExtremeTips"
-echo " WHATTS= 41992479554"
 
 read deseja
 if [ "$deseja" = "1" ]
